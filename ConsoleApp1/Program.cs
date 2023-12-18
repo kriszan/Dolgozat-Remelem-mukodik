@@ -20,7 +20,7 @@ namespace ConsoleApp1
 					if (tmp == 0)
 					{
 						Console.WriteLine("A minimum érték: " + list.Min());
-						//Console.WriteLine("A maximum érték: " + list.Max());
+						Console.WriteLine("A maximum érték: " + list.Max());
 						return;
 					}
 					list.Add(tmp);
