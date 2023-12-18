@@ -17,12 +17,12 @@ namespace ConsoleApp1
 				try
 				{
 					int tmp = int.Parse(Console.ReadLine().Trim());
-					/*if (tmp == 0)
+					if (tmp == 0)
 					{
 						Console.WriteLine("A minimum érték: " + list.Min());
-						Console.WriteLine("A maximum érték: " + list.Max());
+						//Console.WriteLine("A maximum érték: " + list.Max());
 						return;
-					}*/
+					}
 					list.Add(tmp);
 					Console.WriteLine("Eddig megadott számok: " + string.Join(", ", list));
 				}
