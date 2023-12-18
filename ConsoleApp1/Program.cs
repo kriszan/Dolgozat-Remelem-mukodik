@@ -13,7 +13,6 @@ namespace ConsoleApp1
 			List<int> list = new List<int>();
 			while (true)
 			{
-				//Console.WriteLine("Eddig megadott számok: " + string.Join(", ", list));
 				Console.WriteLine("Kérem adjon meg egy számot (0-val vége a programnak)");
 				try
 				{
@@ -25,7 +24,7 @@ namespace ConsoleApp1
 						return;
 					}*/
 					list.Add(tmp);
-
+					Console.WriteLine("Eddig megadott számok: " + string.Join(", ", list));
 				}
 				catch
 				{
